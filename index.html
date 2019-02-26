@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Rock-Paper-scissors</title>
+
+<div class="top">
+	<div class="inner">
+		<h1>Rock Paper Scissors<br>Made with Html ,Css & JS </h1>
+	</div>
+</div>
+
+<table class="container">
+	<thead>
+		<tr>
+		<th>Player</th>
+		<th>Computer</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr>
+		<td id='igrac'>0</td>
+		<td id='komp'>0</td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="cardContainer">
+	<div class="row">
+		<div class="rock">
+			<img src="images/rock.png" alt="rock" id='rock'>
+			<div class="imgIn"><h2 id='q'>Rock</h2></div>
+		</div>
+		<div class="paper">
+			<img src="images/paper.jpg" alt="paper" id='paper'>
+			<div class="imgIn"><h2 id="w">paper</h2></div>
+		</div>
+		<div class="scissors">
+			<img src="images/scissors.png" alt="scissors" id='scissors'>
+			<div class="imgIn"><h2 id='e'>scissors</h2></div>
+		</div>
+	</div>
+</div>
+	<h2 id='desc'>Computer is waiting for your move<br>Kompjuter ceka tvoj potez</br></h2>
+	<h1 id='results'></h1>
+	<div>
+		<div class="btn">
+		<button id='reset'> =>Reset<= </button>
+		</div>
+	</div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
