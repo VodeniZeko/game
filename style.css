@@ -40,6 +40,7 @@ table.container td, table.container th {
 } 
 
 table.container {
+	cursor: progress;
 	border: 4px solid grey;
 	box-shadow: 10px -8px 19px -7px grey;
 }
@@ -51,7 +52,7 @@ table.container tbody td {
 table.container thead th {
 	font-weight: bold;
 	color: black;
- 
+
 }
 
 div.cardContainer {
@@ -63,7 +64,7 @@ div.row {
     justify-content: center;   
 }
 
-div.rock , .paper, .scissors {
+div.cards {
 	margin: 5em;
 	background-color: #F2F2F2;
 	border:transparent;
@@ -72,6 +73,7 @@ div.rock , .paper, .scissors {
 	position: relative;
 	text-align: center;
 	box-shadow: 10px -8px 19px -8px grey;
+	cursor: -webkit-grab; cursor: grab;
 }
 
 img {
